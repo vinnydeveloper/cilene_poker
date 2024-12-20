@@ -21,7 +21,7 @@ const FACE_VALUES = [
 export default class Deck {
   cards: Card[];
   public set seed(value: number) {
-    this.generator = new MersenneTwister(123);
+    this.generator = new MersenneTwister(value);
   }
   discardPile: Card[] = [];
   private generator = new MersenneTwister();

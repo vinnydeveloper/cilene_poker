@@ -25,11 +25,11 @@ export default class Card {
   ) {}
 
   get imagePath() {
-    return `images/${this.deckStyles}/${this.faceValue}${this.suit}.svg`;
+    return `/images/${this.deckStyles}/${this.faceValue}${this.suit}.svg`;
   }
 
   get cardBackImagePath() {
-    return `images/B.svg`;
+    return `/images/${this.deckStyles}/B.svg`;
   }
 
   get numericValue() {

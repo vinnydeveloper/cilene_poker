@@ -11,7 +11,8 @@
   "devDependencies": {
     "@types/mersenne-twister": "^1.1.7",
     "typescript": "~5.6.2",
-    "vite": "^6.0.3"
+    "vite": "^6.0.3",
+    "vitest": "^2.1.8"
   },
   "dependencies": {
     "mersenne-twister": "^1.1.0"
